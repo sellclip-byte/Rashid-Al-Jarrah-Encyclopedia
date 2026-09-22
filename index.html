@@ -1,0 +1,11 @@
+<!doctype html><html lang="ar" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#061827"><link rel="manifest" href="manifest.webmanifest"><link rel="stylesheet" href="style.css"><title>موسوعة أ.د. رشيد الجراح</title><meta name="app-version" content="5.0"></head><body>
+<header><h1>موسوعة أ.د. رشيد الجراح</h1><p>منصة بحثية لتدبر القرآن بمنهجية «تبيان الذكر»</p></header>
+<main><section class="hero"><img src="assets/home-approved.png" alt="الواجهة المعتمدة"></section>
+<section class="tools"><input id="q" placeholder="ابحث في النص الكامل والفهرس والأقسام…"><button onclick="searchNow()">بحث</button></section>
+<section id="home"><div class="grid">
+<button onclick="showEncyclopedia()">📚<b>الموسوعة</b><span>الأقسام والسلاسل</span></button><button onclick="openOfficial(LINKS.books)">📖<b>الكتب</b><span>المكتبة الرسمية</span></button><button onclick="focusSearch()">🔎<b>البحث</b><span>بحث في النص الكامل</span></button>
+<button onclick="showBio()">👤<b>السيرة والملف الأكاديمي</b><span>المصدر الرسمي</span></button><button onclick="location.hash='levels';showLevels()">🏅<b>مستويات القراءة</b><span>من المبتدئ إلى المُدّكر</span></button><button onclick="showCharter()">⚖️<b>ميثاق الاستخدام</b><span>حقوق الملكية الفكرية</span></button>
+<button onclick="openOfficial(LINKS.ask)">❓<b>اسأل الدكتور</b><span>من البوابة الرسمية</span></button><button onclick="showChannels()">▶️<b>القنوات الرسمية</b><span>الروابط الموثقة</span></button><button onclick="showAbout()">ℹ️<b>حول المشروع</b><span>نسخة فحص</span></button>
+</div></section><section id="view" class="panel hidden"></section></main>
+<nav><button onclick="goHome()">⌂<span>الرئيسية</span></button><button onclick="showEncyclopedia()">▤<span>الموسوعة</span></button><button onclick="openOfficial(LINKS.books)">▣<span>الكتب</span></button><button onclick="focusSearch()">⌕<span>البحث</span></button><button onclick="showAbout()">•••<span>المزيد</span></button></nav>
+<div class="version">V5</div><div id="toast"></div><script src="data.js"></script><script src="app.js"></script></body></html>
